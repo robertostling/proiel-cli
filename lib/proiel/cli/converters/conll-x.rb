@@ -48,7 +48,7 @@ module PROIEL
         end
 
         def format_text(s)
-          s.strip.gsub(/[[:space:]]+/, '.')
+          s.gsub(/[[:space:]]+/, '.')
         end
 
         def format_pos(token)
